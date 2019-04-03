@@ -1,22 +1,30 @@
 
-# Intro to CSS
+# An Introduction to CSS
 
 ## Introduction
-Browsers combine the content (HTML) and presentation (CSS) layers to
-display web pages.  CSS is the language for styling web pages.
+On their own, HTML documents contain the information you want, but may not look very good. Cascading StyleSheets (CSS) is the language used to make websites look attractive.
 
-CSS instructions live apart from the HTML elements and have a different
-look and feel ("syntax"). CSS directives give web pages their specific look and
-feel.  If you have ever been impressed by how a website can be displayed on a
-desktop browser while the same content looks great on a mobile device, you have
-CSS to thank for it!
+CSS usually lives separately from the HTML elements and has a different look and feel ("syntax"). CSS directives give web pages their specific look and feel.  If you have ever been impressed by how a website can be displayed on a desktop browser while the same content looks great on a mobile device, you have CSS to thank for it!
+
+
+## Objectives
+You will be able to:
+* Recognize the differences between HTML and CSS
+* Explain what CSS is and what it's used for
+
+## The Power of CSS
 
 One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
-same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
+same_ HTML page and use CSS to create _wildly_ different pages. The following three images from the CSS Zen Garden website **all contain exactly the same HTML**, but look at how differently they present it:
 
+***First example:***
 ![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
+
+***Second example:***
 ![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
+
+***Third example:***
 ![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png "Blog-like CSS Zen Garden designs")
 
 Like we said: all the difference between these images is created by CSS!
@@ -25,21 +33,15 @@ Astounding, right!?
 We know now what CSS is and its purpose, so how does it differ from HTML and
 how can we use it?
 
-## Objectives
-You will be able to:
-* Recognize the differences between HTML and CSS
-* List the basics of CSS
-* Declare CSS properties and values
-
 ## Recognize The Differences Between HTML And CSS
 
 HTML and CSS play two different roles. When we write HTML, we focus on
 structure, hierarchy, and meaning &mdash; the "marking-up" of content.
 Questions in the mind of an HTML author are:
 
-* Is it best to list these members' names with numbers, or bullets?
-* Does this menu belong in in the navigation in the header?
-* Should this additional reference be an aside, or a separate section?
+* *Is it best to list these members' names with numbers, or bullets?*
+* *Does this menu belong in in the navigation in the header?*
+* *Should this additional reference be an aside, or a separate section?*
 
 These questions deal with structure, hierarchy, and meaning, which are
 are concerns of the content layer (HTML).
@@ -47,23 +49,23 @@ are concerns of the content layer (HTML).
 When defining the presentation layer (CSS), here are the questions we ask
 ourselves:
 
-* Do we want the header menu to be stationary, or does it scroll with the
-  browser window?
-* How do we want the content to display inside of a container? For example,
+* *Do we want the header menu to be stationary, or does it scroll with the
+  browser window?*
+* *How do we want the content to display inside of a container? For example,
   does it fill the whole area, edge-to-edge? Is there white space around
-  the content and/or the container?
-* How large should an `H1` be relative to an `H2`? What about an `H3`?
-* What properties should links have? Underline or no underline?
+  the content and/or the container?*
+* *How large should an `H1` be relative to an `H2`? What about an `H3`?
+* *What properties should links have? Underline or no underline?*
   Which color for the normal state versus the hover state? Should the
-  visited link state be different?
-* How should the content appear when on a desktop machine versus a
-  mobile device?
+  visited link state be different?*
+* *How should the content appear when on a desktop machine versus a
+  mobile device?*
 
 As you ask yourself these questions, your focus is on the *aesthetic* quality
 of the page. For each bit of _content_ we can define a _presentation rule_
 that will change the way the HTML is displayed.
 
-## List the Basics of CSS
+## The Principles Underlying CSS
 
 For each _presentation rule_, there are 3 things to keep in mind:
 
@@ -151,7 +153,8 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 
 [id selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
 
-## Declare CSS Properties and Values
+
+## Declaring CSS Properties and Values
 
 Each element has a list of qualities that can be styled.  CSS "property" names
 identify those qualities. For text styling, examples of property names include
@@ -200,7 +203,4 @@ h1 {
 
 ## Summary
 
-With the combination of HTML and CSS, you are able to define content,
-structure, and style to websites. Using a CSS selector like `h1` or `p` paired
-with a declaration block, you will change the display of that element.
-Declaration blocks are collections of CSS properties and values.
+For web scraping, you're primarily going to be focused on the HTML that you want to reference to retrieve information from the web page, but it is good to at least know what CSS is, so you'll recognize it when you come across it. The selectors used by CSS to identify what HTML to mark up are also a useful introduction to the process of selecting elements within an HTML file - something you'll be learning to do. 
