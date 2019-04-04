@@ -1,6 +1,27 @@
-/* This is commented out
-
 h1 {
     color: blue;
   }
-*/
+
+  h2 {
+    font-size: 45px;
+    font-weight: normal;
+  }
+
+  .table_of_contents {
+    border: 1px solid;
+  }
+
+  .quotes {
+    font-style: italic; 
+    margin-top: 100px;
+  }
+
+  #main-title {
+    color: red;
+  }
+
+  #random-table {
+    border-color: red;
+    font-family: monospace;
+    text-align: right;
+  }
