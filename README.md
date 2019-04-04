@@ -209,12 +209,12 @@ There is a simple HTML file in this directory - index.html. Start by looking at 
 OK, so it's a valid HTML file, but it isn't very attractive. We've already created a CSS file in the same directory that it links to. Open that `styles.css` in a text editor. You'll see that there is a single style within it, but it has been commented out. Remove the comments, save the `styles.css` and reload the `index.html` in your browser. You should see the `h1` (the main title) turn from black to blue. Congratulations! You've just started to style a web page using CSS!
 
 Now try to:
-* Make the `h2` text bold
 * Make the `h2` text bigger
+* Make the `h2` text unbold (normal)
 * Add an `id` to the `h1` tag to uniquely identify it, and make the color of the `h1` red using the `id` tag
 * Add a `class` to all of the bullets and use that to put a border round them (the css to do that is `border: 1px solid;`)
 
-For extra credit, find some other [CSS properties](https://www.w3schools.com/html/html_css.asp) and practice applying them to various elements in your page.
+For extra credit, find some other [CSS properties](https://cssreference.io/) and practice applying them to various elements in your page.
 
 ## Summary
 
